@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E3C3C"
+    android:layout_gravity="center"
+    tools:context=".AboutScreen">
+    <ImageView
+        android:id="@+id/BackButttonn"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/background_start"
+        android:padding="14dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:textColor="#EAEEEF"
+        app:tint="@color/white">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statistics"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/fonts2"
+        android:textSize="36sp"
+        android:layout_gravity="center|top"
+        android:layout_margin="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_height="64dp">
+
+            <LinearLayout
+                android:background="@drawable/background_play"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:orientation="horizontal"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Best Moves:"
+                    android:textStyle="bold"
+                    android:layout_marginRight="24dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/fonts"
+                    />
+                <TextView
+                    android:id="@+id/record1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    tools:text="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/fonts2"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="20dp"
+            android:layout_height="64dp">
+
+            <LinearLayout
+                android:background="@drawable/background6"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:orientation="horizontal"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Best Moves:"
+                    android:textStyle="bold"
+                    android:layout_marginRight="24dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/fonts"
+                    />
+                <TextView
+                    android:id="@+id/record2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    tools:text="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/fonts2"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="20dp"
+            android:layout_height="64dp">
+
+            <LinearLayout
+                android:background="@drawable/background11"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingHorizontal="16dp"
+                android:orientation="horizontal"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Best Moves:"
+                    android:textStyle="bold"
+                    android:layout_marginRight="24dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/fonts"
+                    />
+                <TextView
+                    android:id="@+id/record3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    tools:text="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/fonts2"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
